@@ -1,0 +1,122 @@
+
+/** Common */
+.ava-param-wrapper {
+    margin-bottom:5px!important;
+    padding-top:0!important;
+}
+.ava-row {
+    padding-left:15px;
+    padding-right:15px;
+}
+.ava-row:after {
+    content: " " !important;
+    display: table !important;
+    clear: both !important;
+}
+.ava-row > * { float:left; }
+.ava-hide { display:none; }
+
+
+/** Heading */
+.ava-heading-wrapper {
+    min-height:35px;
+    background-color:#f7f7f7!important;
+    border-radius:2px!important;
+    /*border:1px gray solid;*/
+}
+.ava-heading {
+
+}
+.ava-heading .ava-heading-title {
+    margin-top:10px;
+    font-size:14px;
+    font-weight:bold;
+}
+.ava-heading .ava-heading-button {
+    margin-top:4px;
+    float:right;
+}
+
+/** Subeading */
+.ava-subheading-wrapper {
+    height:30px;
+    background-color:#fafafa!important;
+    border-radius:2px!important;
+}
+.ava-subheading {
+
+}
+.ava-subheading .ava-subheading-title {
+    margin-top:7px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+/** Presets button */
+.ava-presets-button {
+    margin-top:3px;
+    font-size:12px;
+    border-radius:2px;
+    border:1px #666 solid;
+    cursor:pointer;
+}
+.ava-presets-wrapper {
+    clear:both;
+    background-color:#999;
+    height:200px;
+    margin:5px;
+    overflow-y:auto;
+}
+
+/** Tabs */
+.ava-tabs-wrapper {
+    min-height:35px;
+    background-color:#f7f7f7!important;
+    border-radius:2px!important;
+    /*border:1px gray solid;*/
+}
+.ava-tabs {
+}
+.ava-tabs .ava-title {
+    margin-top:10px;
+    font-size:14px;
+    margin-right:20px;
+}
+.ava-tabs-items {
+}
+.ava-tabs-items > div {
+    float:left;
+}
+
+.ava-tabs-items > .item {
+    background-color:#eee;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    height:30px;
+    margin-top:5px;
+    margin-right:3px;
+    padding-left:10px;
+    padding-right:10px;
+    cursor:pointer;
+}
+.ava-tabs-items > .item.ava-tab-active {
+    background-color:#fff;
+    cursor:default;
+}
+
+.ava-tabs-items > .item > div {
+    float:left;
+}
+.ava-tabs-items > .item > .color {
+    border-radius:2px;
+    width:18px;
+    height:18px;
+    margin-right:5px;
+    margin-top:5px;
+    background-color:red;
+    border:1px #ddd solid;
+}
+.ava-tabs-items > .item > .title {
+    font-size:13px;
+    margin-top:7px;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "4 Sides",
+  "version": "1.0",
+  "requires": true,
+
+  "attr-groups": {
+
+    "border-color": {
+      "border-top-color": {
+        "value": "blue"
+      },
+      "border-right-color": {
+        "value": "yellow"
+      },
+      "border-bottom-color": {
+        "value": "blue"
+      },
+      "border-left-color": {
+        "value": "cyan"
+      }
+    }
+
+  }
+
+  
+}

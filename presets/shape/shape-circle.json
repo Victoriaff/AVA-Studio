@@ -1,0 +1,15 @@
+{
+  "name": "Circle",
+  "version": "1.0",
+
+  "attr-groups": {
+
+    "border-radius": {
+      "border-radius": {
+        "value": "100%",
+        "common": true
+      }
+    }
+  }
+
+}

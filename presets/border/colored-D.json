@@ -1,0 +1,29 @@
+{
+  "name": "Colored D",
+  "version": "1.0",
+  "requires": true,
+
+  "attr-groups": {
+
+    "border-color": {
+      "border-color": {
+        "value": "red",
+        "common": true
+      },
+      "border-top-color": {
+        "value": "blue"
+      },
+      "border-right-color": {
+        "value": "yellow"
+      }
+    }
+
+  },
+
+  "presets": {
+    "shape": {
+      "name": "shape-D"
+    }
+  }
+
+}

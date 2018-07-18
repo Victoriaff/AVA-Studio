@@ -1,0 +1,14 @@
+/*!
+  author; Viktor
+*/
+@import '_colors.scss';
+
+
+
+
+#admin .tabbar a {
+  font-weight: bold;
+}
+#demo .overview .fakelink {
+  @extend a;
+}

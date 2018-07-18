@@ -1,0 +1,17 @@
+{
+  "name": "D reverse",
+  "version": "1.0",
+
+  "attr-groups": {
+
+    "border-radius": {
+      "border-top-left-radius": {
+        "value": "50%"
+      },
+      "border-bottom-left-radius": {
+        "value": "50%"
+      }
+    }
+  }
+
+}
