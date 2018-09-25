@@ -74,6 +74,12 @@ class AVA_Studio {
 		/** Load core files */
 		$this->load();
 
+        // Register activation hook
+        register_activation_hook( __FILE__, array($this, 'pluginActivated') );
+
+        // Register deactivation hook
+        register_deactivation_hook( __FILE__, array($this, 'pluginDeactivated') );
+
 
 		// Add hooks
 		//add_action( 'plugins_loaded', array( &$this, 'plugins_loaded' ), 9 );
@@ -269,6 +275,9 @@ class AVA_Studio {
 	 */
 	public function pluginActivated() {
 		//dd('activationHook');
+
+
+
 		do_action( 'ava_studio_activation_plugin' );
 	}
 
